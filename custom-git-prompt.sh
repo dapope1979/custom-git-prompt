@@ -337,7 +337,7 @@ __posh_git_echo () {
         gitstring+="$stashCount"
     fi
 
-    gitstring+="$reset_color$arrow_color\ue0b0 "
+    gitstring+=" $reset_color$arrow_color\ue0b0 "
 
     echo "$gitstring"
 }
